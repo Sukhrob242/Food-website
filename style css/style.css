@@ -22,3 +22,59 @@
     transition: all .2s linear;
 }
 
+html{
+    font-size: 80%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background: yellowgreen;
+     
+}
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 20px;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+.header .logo {
+    font-size: 30px;
+    color: var(--orange);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin: 0 16px;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+    color: #ff7800;
+}
+.header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--black);
+    font-size: 2rem;
+    margin-right: .3rem;
+}
+.header div{
+    display: flex;
+    flex-direction: row;
+}
+.header .icons div:hover{
+    color: #fff;
+    background: #e37a1d;
+}
